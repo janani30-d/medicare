@@ -25689,3 +25689,43 @@ body.dark-mode .scroll-top-btn {
     }
 
 }
+/* =========================================================
+   LOGIN + REGISTER - INCREASE LOGO SIZE
+========================================================= */
+
+.login-logo-image,
+.register-logo-image {
+    width: 190px !important;
+    height: auto !important;
+    max-width: none !important;
+    display: block !important;
+    margin: 0 auto !important;
+}
+
+
+/* =========================================================
+   LOGO SPACE BEFORE HEADING
+========================================================= */
+
+.login-logo,
+.register-logo {
+    margin-bottom: 28px !important;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767px) {
+
+    .login-logo-image,
+    .register-logo-image {
+        width: 165px !important;
+    }
+
+    .login-logo,
+    .register-logo {
+        margin-bottom: 24px !important;
+    }
+}
