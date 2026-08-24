@@ -1,0 +1,1329 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MediCare Pharmacy | Trusted Healthcare Store</title>
+
+  <!-- Favicon -->
+
+  <link rel="icon" type="image/png" href="images/logo.png">
+
+  <!-- Google Fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet">
+
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+  <!-- CSS -->
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+<!-- =========================================================
+     HEADER
+========================================================= -->
+<header class="site-header">
+
+    <div class="header-container">
+
+        <!-- Logo -->
+        <div class="header-logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Pharmacy Logo">
+            </a>
+        </div>
+
+
+        <!-- Navigation -->
+        <nav class="main-nav" id="mainNav">
+
+            <ul class="nav-list">
+
+                <!-- Home -->
+                <li class="nav-item dropdown">
+
+                    <a href="#"
+                       class="nav-link dropdown-toggle">
+                        Home
+                        <i class="fas fa-chevron-down"></i>
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="index.html">Home 1</a>
+                        </li>
+
+                        <li>
+                            <a href="home2.html">Home 2</a>
+                        </li>
+                    </ul>
+
+                </li>
+
+
+                <!-- About Us -->
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">
+                        About Us
+                    </a>
+                </li>
+
+
+                <!-- Services -->
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">
+                        Services
+                    </a>
+                </li>
+
+
+                <!-- Medicines -->
+                <li class="nav-item">
+                    <a href="medicines.html" class="nav-link active">
+                        Medicines
+                    </a>
+                </li>
+
+
+                <!-- Prescription -->
+                <li class="nav-item">
+                    <a href="order.html" class="nav-link">
+                        Order Now
+                    </a>
+                </li>
+
+
+                <!-- Blog -->
+                <li class="nav-item">
+                    <a href="blog.html" class="nav-link">
+                        Blog
+                    </a>
+                </li>
+
+
+                <!-- Contact -->
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+
+            <!-- =================================================
+                 MOBILE ACTION BUTTONS
+                 THESE ARE INSIDE HAMBURGER MENU
+            ================================================== -->
+
+            <div class="mobile-actions">
+
+                <!-- RTL -->
+                <button type="button"
+                        class="header-action-btn rtl-toggle"
+                        id="mobileRtlToggle">
+                    RTL
+                </button>
+
+
+                <!-- Dark Mode -->
+                <button type="button"
+                        class="header-action-btn theme-toggle"
+                        id="mobileThemeToggle"
+                        aria-label="Toggle dark mode">
+
+                    <i class="fas fa-moon"></i>
+
+                </button>
+
+
+                <!-- Login -->
+                <a href="login.html"
+                   class="login-btn">
+                    Login
+                </a>
+
+            </div>
+
+        </nav>
+
+
+        <!-- =================================================
+             DESKTOP ACTIONS
+        ================================================== -->
+
+        <div class="header-actions">
+
+            <button type="button"
+                    class="header-action-btn rtl-toggle"
+                    id="rtlToggle">
+                RTL
+            </button>
+
+
+            <button type="button"
+                    class="header-action-btn theme-toggle"
+                    id="themeToggle"
+                    aria-label="Toggle dark mode">
+
+                <i class="fas fa-moon"></i>
+
+            </button>
+
+
+            <a href="login.html"
+               class="login-btn">
+                Login
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             HAMBURGER
+        ================================================== -->
+
+        <button type="button"
+                class="hamburger-btn"
+                id="hamburgerBtn"
+                aria-label="Open navigation menu"
+                aria-controls="mainNav"
+                aria-expanded="false">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+    </div>
+
+</header>
+<!-- =========================================================
+     MEDICINES PAGE
+     SECTION 1 - MEDICINE HERO
+     PART 1 - HTML
+========================================================= -->
+
+<section class="medicines-hero">
+
+    <div class="medicines-hero-container">
+
+        <div class="medicines-hero-content">
+
+            <span class="medicines-hero-subtitle">
+                QUALITY MEDICINES
+            </span>
+
+            <h1>
+                Quality Medicines,
+                <span>Trusted Care</span>
+            </h1>
+
+            <p>
+                Find genuine medicines and healthcare products
+                you can trust, with convenient ordering and
+                reliable pharmacy support.
+            </p>
+
+            <div class="medicines-hero-buttons">
+
+                <a href="order.html"
+                   class="medicines-hero-btn medicines-hero-primary">
+
+                    Order Now
+
+                    <i class="fas fa-arrow-right"></i>
+
+                </a>
+
+                <a href="#medicine-categories"
+                   class="medicines-hero-btn medicines-hero-secondary">
+
+                    Explore Medicines
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     MEDICINES PAGE
+     SECTION 2 - MEDICINE CATEGORIES
+     PART 1 - HTML
+========================================================= -->
+
+<section class="medicine-categories" id="medicine-categories">
+
+    <div class="medicine-categories-container">
+
+        <!-- Section Heading -->
+
+        <div class="medicine-categories-heading">
+
+            <span class="medicine-categories-subtitle">
+                SHOP BY CATEGORY
+            </span>
+
+            <h2>
+                Find the Right Healthcare Products
+            </h2>
+
+            <p>
+                Explore our range of healthcare categories
+                and find products that match your everyday
+                health needs.
+            </p>
+
+        </div>
+
+
+        <!-- Category Cards -->
+
+        <div class="medicine-categories-grid">
+
+
+            <!-- Card 1 -->
+
+            <div class="medicine-category-card">
+
+                <div class="medicine-category-icon">
+                    <i class="fas fa-pills"></i>
+                </div>
+
+                <h3>
+                    Pain Relief
+                </h3>
+
+                <p>
+                    Products designed to provide relief
+                    from everyday aches and discomfort.
+                </p>
+
+            </div>
+
+
+            <!-- Card 2 -->
+
+            <div class="medicine-category-card">
+
+                <div class="medicine-category-icon">
+                    <i class="fas fa-head-side-cough"></i>
+                </div>
+
+                <h3>
+                    Cold & Allergy
+                </h3>
+
+                <p>
+                    Healthcare products for cold,
+                    cough and seasonal allergy care.
+                </p>
+
+            </div>
+
+
+            <!-- Card 3 -->
+
+            <div class="medicine-category-card">
+
+                <div class="medicine-category-icon">
+                    <i class="fas fa-capsules"></i>
+                </div>
+
+                <h3>
+                    Vitamins & Supplements
+                </h3>
+
+                <p>
+                    Essential vitamins and supplements
+                    for everyday wellness.
+                </p>
+
+            </div>
+
+
+            <!-- Card 4 -->
+
+            <div class="medicine-category-card">
+
+                <div class="medicine-category-icon">
+                    <i class="fas fa-heartbeat"></i>
+                </div>
+
+                <h3>
+                    Diabetes Care
+                </h3>
+
+                <p>
+                    Healthcare products supporting
+                    diabetes monitoring and daily care.
+                </p>
+
+            </div>
+
+
+            <!-- Card 5 -->
+
+            <div class="medicine-category-card">
+
+                <div class="medicine-category-icon">
+                    <i class="fas fa-utensils"></i>
+                </div>
+
+                <h3>
+                    Digestive Health
+                </h3>
+
+                <p>
+                    Products supporting comfortable
+                    and healthy digestion.
+                </p>
+
+            </div>
+
+
+            <!-- Card 6 -->
+
+            <div class="medicine-category-card">
+
+                <div class="medicine-category-icon">
+                    <i class="fas fa-hand-holding-medical"></i>
+                </div>
+
+                <h3>
+                    Personal Care
+                </h3>
+
+                <p>
+                    Everyday healthcare and personal
+                    wellness products.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!=========================================================
+   MEDICINES PAGE
+   SECTION 3 - POPULAR MEDICINES
+   PART 1 - HTML
+========================================================= !>
+
+<section class="medicine-products" id="popular-medicines">
+
+    <div class="medicine-products-container">
+
+        <!-- Section Heading -->
+
+        <div class="medicine-products-heading">
+
+            <span class="medicine-products-subtitle">
+                POPULAR PRODUCTS
+            </span>
+
+            <h2>
+                Featured Healthcare Products
+            </h2>
+
+            <p>
+                Explore some of our popular healthcare products,
+                selected for everyday wellness and personal care.
+            </p>
+
+        </div>
+
+
+        <!-- Product Grid -->
+
+        <div class="medicine-products-grid">
+
+
+            <!-- PRODUCT 1 -->
+
+            <article class="medicine-product-card">
+
+                <div class="medicine-product-image">
+
+                    <img
+                        src="images/medicine-paracetamol.jpg"
+                        alt="Paracetamol tablets"
+                    >
+
+                    <span class="medicine-product-label">
+                        Pain Relief
+                    </span>
+
+                </div>
+
+                <div class="medicine-product-content">
+
+                    <h3>
+                        Paracetamol Tablets
+                    </h3>
+
+                    <p>
+                        Everyday pain and fever relief.
+                    </p>
+
+                    <div class="medicine-product-bottom">
+
+                        <span class="medicine-product-price">
+                            ₹45
+                        </span>
+
+                        <a href="order.html"
+                           class="medicine-product-btn">
+                            Order Now
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 2 -->
+
+            <article class="medicine-product-card">
+
+                <div class="medicine-product-image">
+
+                    <img
+                        src="images/medicine-vitamin-c.jpg"
+                        alt="Vitamin C tablets"
+                    >
+
+                    <span class="medicine-product-label">
+                        Vitamins
+                    </span>
+
+                </div>
+
+                <div class="medicine-product-content">
+
+                    <h3>
+                        Vitamin C Tablets
+                    </h3>
+
+                    <p>
+                        Daily nutritional support and wellness.
+                    </p>
+
+                    <div class="medicine-product-bottom">
+
+                        <span class="medicine-product-price">
+                            ₹120
+                        </span>
+
+                        <a href="order.html"
+                           class="medicine-product-btn">
+                            Order Now
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 3 -->
+
+            <article class="medicine-product-card">
+
+                <div class="medicine-product-image">
+
+                    <img
+                        src="images/medicine-allergy.jpg"
+                        alt="Allergy relief tablets"
+                    >
+
+                    <span class="medicine-product-label">
+                        Allergy Care
+                    </span>
+
+                </div>
+
+                <div class="medicine-product-content">
+
+                    <h3>
+                        Allergy Relief Tablets
+                    </h3>
+
+                    <p>
+                        Everyday support for seasonal allergies.
+                    </p>
+
+                    <div class="medicine-product-bottom">
+
+                        <span class="medicine-product-price">
+                            ₹85
+                        </span>
+
+                        <a href="order.html"
+                           class="medicine-product-btn">
+                            Order Now
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 4 -->
+
+            <article class="medicine-product-card">
+
+                <div class="medicine-product-image">
+
+                    <img
+                        src="images/medicine-multivitamin.jpg"
+                        alt="Multivitamin capsules"
+                    >
+
+                    <span class="medicine-product-label">
+                        Supplements
+                    </span>
+
+                </div>
+
+                <div class="medicine-product-content">
+
+                    <h3>
+                        Multivitamin Capsules
+                    </h3>
+
+                    <p>
+                        Essential nutritional support for wellness.
+                    </p>
+
+                    <div class="medicine-product-bottom">
+
+                        <span class="medicine-product-price">
+                            ₹180
+                        </span>
+
+                        <a href="order.html"
+                           class="medicine-product-btn">
+                            Order Now
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 5 -->
+
+            <article class="medicine-product-card">
+
+                <div class="medicine-product-image">
+
+                    <img
+                        src="images/medicine-antacid.jpg"
+                        alt="Antacid tablets"
+                    >
+
+                    <span class="medicine-product-label">
+                        Digestive Care
+                    </span>
+
+                </div>
+
+                <div class="medicine-product-content">
+
+                    <h3>
+                        Antacid Tablets
+                    </h3>
+
+                    <p>
+                        Convenient support for digestive comfort.
+                    </p>
+
+                    <div class="medicine-product-bottom">
+
+                        <span class="medicine-product-price">
+                            ₹70
+                        </span>
+
+                        <a href="order.html"
+                           class="medicine-product-btn">
+                            Order Now
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 6 -->
+
+            <article class="medicine-product-card">
+
+                <div class="medicine-product-image">
+
+                    <img
+                        src="images/medicine-pain-gel.jpg"
+                        alt="Pain relief gel"
+                    >
+
+                    <span class="medicine-product-label">
+                        Pain Care
+                    </span>
+
+                </div>
+
+                <div class="medicine-product-content">
+
+                    <h3>
+                        Pain Relief Gel
+                    </h3>
+
+                    <p>
+                        Topical support for everyday muscle discomfort.
+                    </p>
+
+                    <div class="medicine-product-bottom">
+
+                        <span class="medicine-product-price">
+                            ₹110
+                        </span>
+
+                        <a href="order.html"
+                           class="medicine-product-btn">
+                            Order Now
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     MEDICINES PAGE
+     SECTION 4 - WHY CHOOSE MEDICARE
+     PART 1 - HTML
+========================================================= -->
+
+<section class="medicine-why" id="why-medicare">
+
+    <div class="medicine-why-container">
+
+        <!-- Section Heading -->
+
+        <div class="medicine-why-heading">
+
+            <span class="medicine-why-subtitle">
+                WHY CHOOSE US
+            </span>
+
+            <h2>
+                Healthcare You Can Trust
+            </h2>
+
+            <p>
+                We make your healthcare experience simple,
+                convenient and reliable with quality products
+                and dependable service.
+            </p>
+
+        </div>
+
+
+        <!-- Feature Grid -->
+
+        <div class="medicine-why-grid">
+
+
+            <!-- Feature 1 -->
+
+            <div class="medicine-why-card">
+
+                <div class="medicine-why-icon">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+
+                <div class="medicine-why-content">
+
+                    <h3>
+                        Quality Products
+                    </h3>
+
+                    <p>
+                        Carefully selected healthcare products
+                        for your everyday wellness needs.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Feature 2 -->
+
+            <div class="medicine-why-card">
+
+                <div class="medicine-why-icon">
+                    <i class="fas fa-heart"></i>
+                </div>
+
+                <div class="medicine-why-content">
+
+                    <h3>
+                        Trusted Service
+                    </h3>
+
+                    <p>
+                        Reliable service designed to make
+                        your healthcare journey easier.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Feature 3 -->
+
+            <div class="medicine-why-card">
+
+                <div class="medicine-why-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+
+                <div class="medicine-why-content">
+
+                    <h3>
+                        Easy Ordering
+                    </h3>
+
+                    <p>
+                        Enjoy a simple and convenient way
+                        to request your healthcare products.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Feature 4 -->
+
+            <div class="medicine-why-card">
+
+                <div class="medicine-why-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+
+                <div class="medicine-why-content">
+
+                    <h3>
+                        Safe & Secure
+                    </h3>
+
+                    <p>
+                        A secure ordering experience with
+                        careful handling of your requests.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     MEDICINES PAGE
+     SECTION 5 - HEALTH & WELLNESS TIPS
+     PART 1 - HTML
+========================================================= -->
+
+<section class="medicine-wellness" id="health-wellness">
+
+    <div class="medicine-wellness-container">
+
+        <!-- Section Heading -->
+
+        <div class="medicine-wellness-heading">
+
+            <span class="medicine-wellness-subtitle">
+                HEALTH & WELLNESS
+            </span>
+
+            <h2>
+                Helpful Health Information
+            </h2>
+
+            <p>
+                Simple information to help you make informed
+                choices about everyday healthcare and wellness.
+            </p>
+
+        </div>
+
+
+        <!-- Wellness Cards -->
+
+        <div class="medicine-wellness-grid">
+
+
+            <!-- Card 1 -->
+
+            <article class="medicine-wellness-card">
+
+                <div class="medicine-wellness-image">
+
+                    <img
+                        src="images/medicine-guide.jpg"
+                        alt="Healthcare medicine guide"
+                    >
+
+                </div>
+
+                <div class="medicine-wellness-content">
+
+                    <span class="medicine-wellness-tag">
+                        MEDICINE GUIDE
+                    </span>
+
+                    <h3>
+                        Understanding Your Medicines
+                    </h3>
+
+                    <p>
+                        Learn why it is important to understand
+                        medicine instructions and use products responsibly.
+                    </p>
+
+                    <a href="#" class="medicine-wellness-link">
+                        Read More
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- Card 2 -->
+
+            <article class="medicine-wellness-card">
+
+                <div class="medicine-wellness-image">
+
+                    <img
+                        src="images/daily-wellness.jpg"
+                        alt="Daily health and wellness"
+                    >
+
+                </div>
+
+                <div class="medicine-wellness-content">
+
+                    <span class="medicine-wellness-tag">
+                        WELLNESS
+                    </span>
+
+                    <h3>
+                        Daily Wellness Habits
+                    </h3>
+
+                    <p>
+                        Discover simple everyday habits that can
+                        support a healthy and balanced lifestyle.
+                    </p>
+
+                    <a href="#" class="medicine-wellness-link">
+                        Read More
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- Card 3 -->
+
+            <article class="medicine-wellness-card">
+
+                <div class="medicine-wellness-image">
+
+                    <img
+                        src="images/health-consultation.jpg"
+                        alt="Healthcare consultation"
+                    >
+
+                </div>
+
+                <div class="medicine-wellness-content">
+
+                    <span class="medicine-wellness-tag">
+                        HEALTH CARE
+                    </span>
+
+                    <h3>
+                        When to Consult a Professional
+                    </h3>
+
+                    <p>
+                        Understand when professional healthcare
+                        guidance may be appropriate for your needs.
+                    </p>
+
+                    <a href="#" class="medicine-wellness-link">
+                        Read More
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     MEDICINES PAGE
+     SECTION 6 - ORDER NOW CTA
+     PART 1 - HTML
+========================================================= -->
+
+<section class="medicine-order-cta" id="order-now">
+
+    <div class="medicine-order-cta-container">
+
+        <!-- CTA Content -->
+
+        <div class="medicine-order-cta-content">
+
+            <span class="medicine-order-cta-subtitle">
+                ORDER NOW
+            </span>
+
+            <h2>
+                Get Your Healthcare Products Easily
+            </h2>
+
+            <p>
+                Find the healthcare products you need and
+                place your order through our simple and
+                convenient ordering process.
+            </p>
+
+            <div class="medicine-order-cta-buttons">
+
+                <a href="order.html"
+                   class="medicine-order-btn medicine-order-btn-primary">
+                    Order Now
+                </a>
+
+                <a href="contact.html"
+                   class="medicine-order-btn medicine-order-btn-secondary">
+                    Contact Us
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- CTA Image -->
+
+        <div class="medicine-order-cta-image">
+
+            <img
+                src="images/order-medicines.jpg"
+                alt="Healthcare products and pharmacy service"
+            >
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+<footer class="site-footer">
+
+    <div class="footer-container">
+
+        <!-- =========================
+             FOOTER BRAND
+        ========================== -->
+        <div class="footer-column footer-brand">
+
+            <a href="index.html" class="footer-logo">
+                <img src="images/logo.png" alt="MediCare Logo">
+            </a>
+
+            <p class="footer-description">
+                Your trusted pharmacy for quality medicines,
+                healthcare products, and reliable health services.
+            </p>
+
+            <!-- Social Media -->
+            <div class="footer-social">
+
+                <a href="#" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="#" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="#" aria-label="Twitter">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+
+                <a href="#" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+             QUICK LINKS
+        ========================== -->
+        <div class="footer-column">
+
+            <h3 class="footer-title">
+                Quick Links
+            </h3>
+
+            <ul class="footer-links">
+
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="about.html">
+                        About Us
+                    </a>
+                </li>
+
+                <li>
+                    <a href="services.html">
+                        Services
+                    </a>
+                </li>
+
+                <li>
+                    <a href="medicines.html">
+                        Medicines
+                    </a>
+                </li>
+
+                <li>
+                    <a href="blog.html">
+                        Blog
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contact.html">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- =========================
+             OUR SERVICES
+        ========================== -->
+        <div class="footer-column">
+
+            <h3 class="footer-title">
+                Our Services
+            </h3>
+
+            <ul class="footer-links">
+
+                <li>
+                    <a href="medicines.html">
+                        Medicines
+                    </a>
+                </li>
+
+                <li>
+                    <a href="order.html">
+                        Order Now
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        Home Delivery
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        Health Products
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        Medicine Enquiry
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- =========================
+             CONTACT INFORMATION
+        ========================== -->
+        <div class="footer-column footer-contact">
+
+            <h3 class="footer-title">
+                Contact Us
+            </h3>
+
+            <ul class="contact-list">
+
+                <li>
+
+                    <i class="fas fa-phone"></i>
+
+                    <a href="tel:+911234567890">
+                        +91 12345 67890
+                    </a>
+
+                </li>
+
+
+                <li>
+
+                    <i class="fas fa-envelope"></i>
+
+                    <a href="mailto:info@medicare.com">
+                        info@medicare.com
+                    </a>
+
+                </li>
+
+
+                <li>
+
+                    <i class="fas fa-location-dot"></i>
+
+                    <span>
+                        123 Health Street,<br>
+                        Chennai, Tamil Nadu
+                    </span>
+
+                </li>
+
+
+                <li>
+
+                    <i class="fas fa-clock"></i>
+
+                    <span>
+                        Mon - Sat: 9:00 AM - 9:00 PM
+                    </span>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         FOOTER BOTTOM
+    ========================== -->
+    <div class="footer-bottom">
+
+        <div class="footer-bottom-container">
+
+            <p>
+                © 2026 MediCare. All Rights Reserved.
+            </p>
+
+            <div class="footer-bottom-links">
+
+                <a href="#">
+                    Privacy Policy
+                </a>
+
+                <a href="#">
+                    Terms & Conditions
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+ <!-- JS -->
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>

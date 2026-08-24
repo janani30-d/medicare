@@ -1,0 +1,1302 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MediCare Pharmacy | Trusted Healthcare Store</title>
+
+  <!-- Favicon -->
+
+  <link rel="icon" type="image/png" href="images/logo.png">
+
+  <!-- Google Fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet">
+
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+  <!-- CSS -->
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+<!-- =========================================================
+     HEADER
+========================================================= -->
+<header class="site-header">
+
+    <div class="header-container">
+
+        <!-- Logo -->
+        <div class="header-logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Pharmacy Logo">
+            </a>
+        </div>
+
+
+        <!-- Navigation -->
+        <nav class="main-nav" id="mainNav">
+
+            <ul class="nav-list">
+
+                <!-- Home -->
+                <li class="nav-item dropdown">
+
+                    <a href="#"
+                       class="nav-link dropdown-toggle">
+                        Home
+                        <i class="fas fa-chevron-down"></i>
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="index.html">Home 1</a>
+                        </li>
+
+                        <li>
+                            <a href="home2.html">Home 2</a>
+                        </li>
+                    </ul>
+
+                </li>
+
+
+                <!-- About Us -->
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">
+                        About Us
+                    </a>
+                </li>
+
+
+                <!-- Services -->
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">
+                        Services
+                    </a>
+                </li>
+
+
+                <!-- Medicines -->
+                <li class="nav-item">
+                    <a href="medicines.html" class="nav-link">
+                        Medicines
+                    </a>
+                </li>
+
+
+                <!-- Prescription -->
+                <li class="nav-item">
+                    <a href="order.html" class="nav-link active">
+                        Order Now
+                    </a>
+                </li>
+
+
+                <!-- Blog -->
+                <li class="nav-item">
+                    <a href="blog.html" class="nav-link">
+                        Blog
+                    </a>
+                </li>
+
+
+                <!-- Contact -->
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+
+            <!-- =================================================
+                 MOBILE ACTION BUTTONS
+                 THESE ARE INSIDE HAMBURGER MENU
+            ================================================== -->
+
+            <div class="mobile-actions">
+
+                <!-- RTL -->
+                <button type="button"
+                        class="header-action-btn rtl-toggle"
+                        id="mobileRtlToggle">
+                    RTL
+                </button>
+
+
+                <!-- Dark Mode -->
+                <button type="button"
+                        class="header-action-btn theme-toggle"
+                        id="mobileThemeToggle"
+                        aria-label="Toggle dark mode">
+
+                    <i class="fas fa-moon"></i>
+
+                </button>
+
+
+                <!-- Login -->
+                <a href="login.html"
+                   class="login-btn">
+                    Login
+                </a>
+
+            </div>
+
+        </nav>
+
+
+        <!-- =================================================
+             DESKTOP ACTIONS
+        ================================================== -->
+
+        <div class="header-actions">
+
+            <button type="button"
+                    class="header-action-btn rtl-toggle"
+                    id="rtlToggle">
+                RTL
+            </button>
+
+
+            <button type="button"
+                    class="header-action-btn theme-toggle"
+                    id="themeToggle"
+                    aria-label="Toggle dark mode">
+
+                <i class="fas fa-moon"></i>
+
+            </button>
+
+
+            <a href="login.html"
+               class="login-btn">
+                Login
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             HAMBURGER
+        ================================================== -->
+
+        <button type="button"
+                class="hamburger-btn"
+                id="hamburgerBtn"
+                aria-label="Open navigation menu"
+                aria-controls="mainNav"
+                aria-expanded="false">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+    </div>
+
+</header>
+<!-- =========================================================
+     ORDER NOW PAGE
+     HERO SECTION
+     PART 1 - HTML
+========================================================= -->
+
+<section class="order-page-hero">
+
+    <div class="order-page-hero-overlay"></div>
+
+    <div class="order-page-hero-container">
+
+        <div class="order-page-hero-content">
+
+            <span class="order-page-hero-subtitle">
+                ORDER NOW
+            </span>
+
+            <h1>
+                Order Your Medicines
+                <span>With Ease</span>
+            </h1>
+
+            <p>
+                Get the medicines and healthcare products you need
+                through a simple, secure and convenient ordering process.
+            </p>
+
+            <div class="order-page-hero-buttons">
+
+                <a href="#prescription-upload"
+                   class="order-page-hero-btn order-page-hero-btn-primary">
+                    Upload Prescription
+                </a>
+
+                <a href="#order-details"
+                   class="order-page-hero-btn order-page-hero-btn-outline">
+                    Order Now
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     ORDER NOW PAGE
+     SECTION 2 - HOW IT WORKS
+     PART 1 - HTML
+========================================================= -->
+
+<section class="order-how-it-works">
+
+    <div class="order-how-container">
+
+        <!-- Section Heading -->
+
+        <div class="order-how-heading">
+
+            <span class="order-how-subtitle">
+                HOW IT WORKS
+            </span>
+
+            <h2>
+                Simple Steps to Order
+            </h2>
+
+            <p>
+                Ordering your medicines is quick and convenient.
+                Follow these simple steps to complete your order.
+            </p>
+
+        </div>
+
+
+        <!-- Steps -->
+
+        <div class="order-how-steps">
+
+            <!-- Step 1 -->
+
+            <div class="order-how-step">
+
+                <div class="order-how-icon">
+                    <span>01</span>
+                </div>
+
+                <div class="order-how-content">
+
+                    <h3>
+                        Choose Your Medicines
+                    </h3>
+
+                    <p>
+                        Browse our healthcare products and
+                        select the medicines you need.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Step 2 -->
+
+            <div class="order-how-step">
+
+                <div class="order-how-icon">
+                    <span>02</span>
+                </div>
+
+                <div class="order-how-content">
+
+                    <h3>
+                        Upload Prescription
+                    </h3>
+
+                    <p>
+                        Upload a clear prescription when
+                        your medicine requires one.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Step 3 -->
+
+            <div class="order-how-step">
+
+                <div class="order-how-icon">
+                    <span>03</span>
+                </div>
+
+                <div class="order-how-content">
+
+                    <h3>
+                        Confirm Your Details
+                    </h3>
+
+                    <p>
+                        Enter your contact information and
+                        delivery details carefully.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Step 4 -->
+
+            <div class="order-how-step">
+
+                <div class="order-how-icon">
+                    <span>04</span>
+                </div>
+
+                <div class="order-how-content">
+
+                    <h3>
+                        Receive Your Order
+                    </h3>
+
+                    <p>
+                        Confirm your order and receive your
+                        medicines conveniently.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     ORDER NOW PAGE
+     SECTION 3 - PRESCRIPTION UPLOAD
+     PART 1 - HTML
+========================================================= -->
+
+<section class="prescription-upload" id="prescription-upload">
+
+    <div class="prescription-upload-container">
+
+        <!-- Section Heading -->
+
+        <div class="prescription-upload-heading">
+
+            <span class="prescription-upload-subtitle">
+                PRESCRIPTION UPLOAD
+            </span>
+
+            <h2>
+                Upload Your Prescription
+            </h2>
+
+            <p>
+                Have a prescription from your doctor?
+                Upload it securely and we will help you
+                with your medicine order.
+            </p>
+
+        </div>
+
+
+        <!-- Upload Area -->
+
+        <div class="prescription-upload-box">
+
+            <div class="prescription-upload-icon">
+                <i class="fas fa-file-prescription"></i>
+            </div>
+
+            <h3>
+                Upload Your Prescription
+            </h3>
+
+            <p>
+                Choose a prescription file from your device
+            </p>
+
+            <span class="prescription-upload-format">
+                JPG, PNG or PDF · Maximum 5 MB
+            </span>
+
+
+            <!-- File Input -->
+
+            <label
+                for="prescription-file"
+                class="prescription-choose-btn">
+                Choose File
+            </label>
+
+            <input
+                type="file"
+                id="prescription-file"
+                name="prescription"
+                accept=".jpg,.jpeg,.png,.pdf"
+                hidden
+            >
+
+
+            <!-- Selected File -->
+
+            <div
+                class="prescription-file-name"
+                id="prescription-file-name">
+            </div>
+
+        </div>
+
+
+        <!-- Submit Button -->
+
+        <div class="prescription-upload-action">
+
+            <button
+                type="button"
+                class="prescription-submit-btn">
+                Submit Prescription
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     ORDER NOW PAGE
+     SECTION 4 - ORDER DETAILS
+     PART 1 - HTML
+========================================================= -->
+
+<section class="order-details" id="order-details">
+
+    <div class="order-details-container">
+
+        <!-- Section Heading -->
+
+        <div class="order-details-heading">
+
+            <span class="order-details-subtitle">
+                ORDER DETAILS
+            </span>
+
+            <h2>
+                Complete Your Order
+            </h2>
+
+            <p>
+                Enter your details below to help us process
+                your medicine order smoothly.
+            </p>
+
+        </div>
+
+
+        <!-- Order Form -->
+
+        <form class="order-details-form">
+
+            <!-- Personal Details -->
+
+            <div class="order-form-row">
+
+                <div class="order-form-group">
+
+                    <label for="order-name">
+                        Full Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="order-name"
+                        name="name"
+                        placeholder="Enter your full name"
+                    >
+
+                </div>
+
+
+                <div class="order-form-group">
+
+                    <label for="order-phone">
+                        Phone Number
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="order-phone"
+                        name="phone"
+                        placeholder="Enter your phone number"
+                    >
+
+                </div>
+
+            </div>
+
+
+            <!-- Email + Medicine -->
+
+            <div class="order-form-row">
+
+                <div class="order-form-group">
+
+                    <label for="order-email">
+                        Email Address
+                    </label>
+
+                    <input
+                        type="email"
+                        id="order-email"
+                        name="email"
+                        placeholder="Enter your email address"
+                    >
+
+                </div>
+
+
+                <div class="order-form-group">
+
+                    <label for="medicine-name">
+                        Medicine Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="medicine-name"
+                        name="medicine"
+                        placeholder="Enter medicine name"
+                    >
+
+                </div>
+
+            </div>
+
+
+            <!-- Quantity -->
+
+            <div class="order-form-row">
+
+                <div class="order-form-group">
+
+                    <label for="medicine-quantity">
+                        Quantity
+                    </label>
+
+                    <input
+                        type="number"
+                        id="medicine-quantity"
+                        name="quantity"
+                        min="1"
+                        placeholder="Enter quantity"
+                    >
+
+                </div>
+
+
+                <div class="order-form-group">
+
+                    <label for="delivery-address">
+                        Delivery Address
+                    </label>
+
+                    <input
+                        type="text"
+                        id="delivery-address"
+                        name="address"
+                        placeholder="Enter your delivery address"
+                    >
+
+                </div>
+
+            </div>
+
+
+            <!-- Additional Notes -->
+
+            <div class="order-form-group order-form-full">
+
+                <label for="order-notes">
+                    Additional Notes
+                </label>
+
+                <textarea
+                    id="order-notes"
+                    name="notes"
+                    rows="5"
+                    placeholder="Add any additional information..."
+                ></textarea>
+
+            </div>
+
+
+            <!-- Submit -->
+
+            <div class="order-form-submit">
+
+                <button
+                    type="submit"
+                    class="order-place-btn">
+                    Place Order
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     ORDER NOW PAGE
+     SECTION 5 - ORDER SUMMARY
+     PART 1 - HTML
+========================================================= -->
+
+<section class="order-summary">
+
+    <div class="order-summary-container">
+
+        <!-- Section Heading -->
+
+        <div class="order-summary-heading">
+
+            <span class="order-summary-subtitle">
+                ORDER SUMMARY
+            </span>
+
+            <h2>
+                Review Your Order
+            </h2>
+
+            <p>
+                Please review your order details before
+                confirming your medicine request.
+            </p>
+
+        </div>
+
+
+        <!-- Summary Card -->
+
+        <div class="order-summary-card">
+
+            <!-- Medicine Information -->
+
+            <div class="order-summary-item">
+
+                <div class="order-summary-label">
+                    Medicine
+                </div>
+
+                <div class="order-summary-value">
+                    Your Selected Medicine
+                </div>
+
+            </div>
+
+
+            <!-- Quantity -->
+
+            <div class="order-summary-item">
+
+                <div class="order-summary-label">
+                    Quantity
+                </div>
+
+                <div class="order-summary-value">
+                    1
+                </div>
+
+            </div>
+
+
+            <!-- Prescription -->
+
+            <div class="order-summary-item">
+
+                <div class="order-summary-label">
+                    Prescription
+                </div>
+
+                <div class="order-summary-value
+                            order-prescription-status">
+                    Uploaded
+                </div>
+
+            </div>
+
+
+            <!-- Delivery -->
+
+            <div class="order-summary-item">
+
+                <div class="order-summary-label">
+                    Delivery Address
+                </div>
+
+                <div class="order-summary-value">
+                    Your Delivery Address
+                </div>
+
+            </div>
+
+
+            <!-- Contact -->
+
+            <div class="order-summary-item">
+
+                <div class="order-summary-label">
+                    Contact Number
+                </div>
+
+                <div class="order-summary-value">
+                    Your Phone Number
+                </div>
+
+            </div>
+
+
+            <!-- Delivery Time -->
+
+            <div class="order-summary-item">
+
+                <div class="order-summary-label">
+                    Estimated Delivery
+                </div>
+
+                <div class="order-summary-value">
+                    Within 2–3 Business Days
+                </div>
+
+            </div>
+
+
+            <!-- Divider -->
+
+            <div class="order-summary-divider"></div>
+
+
+            <!-- Confirmation -->
+
+            <div class="order-summary-confirm">
+
+                <p>
+                    Please make sure all the information
+                    provided is correct.
+                </p>
+
+                <button
+                    type="button"
+                    class="order-confirm-btn">
+                    Confirm Order
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     ORDER NOW PAGE
+     SECTION 6 - DELIVERY & PAYMENT
+     PART 1 - HTML
+========================================================= -->
+
+<section class="delivery-payment" id="delivery-payment">
+
+    <div class="delivery-payment-container">
+
+        <!-- Section Heading -->
+
+        <div class="delivery-payment-heading">
+
+            <span class="delivery-payment-subtitle">
+                DELIVERY & PAYMENT
+            </span>
+
+            <h2>
+                Choose Your Delivery & Payment
+            </h2>
+
+            <p>
+                Select your preferred delivery method and
+                payment option to complete your order.
+            </p>
+
+        </div>
+
+
+        <!-- Information Cards -->
+
+        <div class="delivery-payment-grid">
+
+            <!-- Delivery Card -->
+
+            <div class="delivery-payment-card">
+
+                <div class="delivery-payment-icon">
+                    <i class="fas fa-truck"></i>
+                </div>
+
+                <h3>
+                    Delivery Information
+                </h3>
+
+                <p>
+                    Get your medicines delivered safely
+                    to your preferred address.
+                </p>
+
+
+                <!-- Delivery Options -->
+
+                <div class="delivery-option">
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="delivery-method"
+                            value="standard"
+                            checked
+                        >
+
+                        <span>
+                            Standard Delivery
+                        </span>
+
+                    </label>
+
+                    <small>
+                        Within 2–3 business days
+                    </small>
+
+                </div>
+
+
+                <div class="delivery-option">
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="delivery-method"
+                            value="express"
+                        >
+
+                        <span>
+                            Express Delivery
+                        </span>
+
+                    </label>
+
+                    <small>
+                        Within 1 business day
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <!-- Payment Card -->
+
+            <div class="delivery-payment-card">
+
+                <div class="delivery-payment-icon">
+                    <i class="fas fa-credit-card"></i>
+                </div>
+
+                <h3>
+                    Payment Information
+                </h3>
+
+                <p>
+                    Choose a convenient and secure payment
+                    method for your order.
+                </p>
+
+
+                <!-- Payment Options -->
+
+                <div class="payment-option">
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="payment-method"
+                            value="cod"
+                            checked
+                        >
+
+                        <span>
+                            Cash on Delivery
+                        </span>
+
+                    </label>
+
+                    <small>
+                        Pay when your order arrives
+                    </small>
+
+                </div>
+
+
+                <div class="payment-option">
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="payment-method"
+                            value="online"
+                        >
+
+                        <span>
+                            Online Payment
+                        </span>
+
+                    </label>
+
+                    <small>
+                        Secure payment online
+                    </small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Confirmation -->
+
+        <div class="delivery-payment-confirm">
+
+            <p>
+                Your order will be processed after
+                confirmation.
+            </p>
+
+            <button
+                type="button"
+                class="delivery-place-btn">
+                Confirm & Place Order
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     ORDER NOW PAGE
+     SECTION 7 - HELP CTA
+     PART 1 - HTML
+========================================================= -->
+
+<section class="order-help" id="order-help">
+
+    <div class="order-help-container">
+
+        <div class="order-help-content">
+
+            <span class="order-help-subtitle">
+                NEED HELP?
+            </span>
+
+            <h2>
+                We're Here to Help
+            </h2>
+
+            <p>
+                Have questions about your medicine order,
+                prescription, delivery, or payment?
+                Our support team is ready to assist you.
+            </p>
+
+            <div class="order-help-buttons">
+
+                <a href="contact.html"
+                   class="order-help-btn order-help-contact">
+                    Contact Us
+                </a>
+
+                <a href="tel:+1234567890"
+                   class="order-help-btn order-help-call">
+                    Call Us
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+<footer class="site-footer">
+
+    <div class="footer-container">
+
+        <!-- =========================
+             FOOTER BRAND
+        ========================== -->
+        <div class="footer-column footer-brand">
+
+            <a href="index.html" class="footer-logo">
+                <img src="images/logo.png" alt="MediCare Logo">
+            </a>
+
+            <p class="footer-description">
+                Your trusted pharmacy for quality medicines,
+                healthcare products, and reliable health services.
+            </p>
+
+            <!-- Social Media -->
+            <div class="footer-social">
+
+                <a href="#" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="#" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="#" aria-label="Twitter">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+
+                <a href="#" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+             QUICK LINKS
+        ========================== -->
+        <div class="footer-column">
+
+            <h3 class="footer-title">
+                Quick Links
+            </h3>
+
+            <ul class="footer-links">
+
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="about.html">
+                        About Us
+                    </a>
+                </li>
+
+                <li>
+                    <a href="services.html">
+                        Services
+                    </a>
+                </li>
+
+                <li>
+                    <a href="medicines.html">
+                        Medicines
+                    </a>
+                </li>
+
+                <li>
+                    <a href="blog.html">
+                        Blog
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contact.html">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- =========================
+             OUR SERVICES
+        ========================== -->
+        <div class="footer-column">
+
+            <h3 class="footer-title">
+                Our Services
+            </h3>
+
+            <ul class="footer-links">
+
+                <li>
+                    <a href="medicines.html">
+                        Medicines
+                    </a>
+                </li>
+
+                <li>
+                    <a href="order.html">
+                        Order Now
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        Home Delivery
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        Health Products
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        Medicine Enquiry
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- =========================
+             CONTACT INFORMATION
+        ========================== -->
+        <div class="footer-column footer-contact">
+
+            <h3 class="footer-title">
+                Contact Us
+            </h3>
+
+            <ul class="contact-list">
+
+                <li>
+
+                    <i class="fas fa-phone"></i>
+
+                    <a href="tel:+911234567890">
+                        +91 12345 67890
+                    </a>
+
+                </li>
+
+
+                <li>
+
+                    <i class="fas fa-envelope"></i>
+
+                    <a href="mailto:info@medicare.com">
+                        info@medicare.com
+                    </a>
+
+                </li>
+
+
+                <li>
+
+                    <i class="fas fa-location-dot"></i>
+
+                    <span>
+                        123 Health Street,<br>
+                        Chennai, Tamil Nadu
+                    </span>
+
+                </li>
+
+
+                <li>
+
+                    <i class="fas fa-clock"></i>
+
+                    <span>
+                        Mon - Sat: 9:00 AM - 9:00 PM
+                    </span>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         FOOTER BOTTOM
+    ========================== -->
+    <div class="footer-bottom">
+
+        <div class="footer-bottom-container">
+
+            <p>
+                © 2026 MediCare. All Rights Reserved.
+            </p>
+
+            <div class="footer-bottom-links">
+
+                <a href="#">
+                    Privacy Policy
+                </a>
+
+                <a href="#">
+                    Terms & Conditions
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+ <!-- JS -->
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>
