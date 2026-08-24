@@ -11838,112 +11838,68 @@ body.dark-mode {
 
 /* =========================================================
    HEALTHCARE SERVICES
+   PART 2 - CARD DESIGN + IMAGES
 ========================================================= */
 
 .healthcare-services {
-
     width: 100%;
+    padding: 90px 0;
 
-    padding: 85px 0;
+    background: var(--bg-color);
+    color: var(--text-color);
 
-    background-color: var(--services-card-bg);
-
-    transition:
-        background-color var(--services-transition);
+    box-sizing: border-box;
 }
-
-
-/* =========================================================
-   SERVICES CONTAINER
-========================================================= */
 
 .healthcare-services-container {
-
-    width: 100%;
-
+    width: 90%;
     max-width: 1200px;
-
     margin: 0 auto;
-
-    padding: 0 30px;
 }
 
 
 /* =========================================================
-   SERVICES HEADING
+   SECTION HEADING
 ========================================================= */
 
 .healthcare-services-heading {
-
-    max-width: 720px;
-
-    margin: 0 auto 45px;
-
     text-align: center;
+    max-width: 800px;
+    margin: 0 auto 50px;
 }
 
-
-/* =========================================================
-   SERVICES SUBTITLE
-========================================================= */
-
 .healthcare-services-subtitle {
-
-    display: inline-block;
+    display: block;
 
     margin-bottom: 10px;
 
-    color: var(--services-primary);
+    color: var(--primary-color);
 
     font-size: 13px;
-
     font-weight: 600;
-
-    letter-spacing: 0.6px;
 
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
-
-
-/* =========================================================
-   SERVICES TITLE
-========================================================= */
 
 .healthcare-services-heading h2 {
+    margin: 0 0 15px;
 
-    margin: 0 0 14px;
-
-    color: var(--services-heading);
-
-    font-size: 32px;
-
+    font-size: 38px;
+    line-height: 1.2;
     font-weight: 600;
 
-    line-height: 1.3;
-
-    transition:
-        color var(--services-transition);
+    color: var(--heading-color);
 }
 
-
-/* =========================================================
-   SERVICES DESCRIPTION
-========================================================= */
-
 .healthcare-services-heading p {
+    margin: 0;
 
-    max-width: 650px;
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 400;
 
-    margin: 0 auto;
-
-    color: var(--services-text);
-
-    font-size: 14px;
-
-    line-height: 1.75;
-
-    transition:
-        color var(--services-transition);
+    color: var(--text-muted);
 }
 
 
@@ -11952,12 +11908,13 @@ body.dark-mode {
 ========================================================= */
 
 .healthcare-services-grid {
-
     display: grid;
 
     grid-template-columns: repeat(3, 1fr);
 
-    gap: 20px;
+    gap: 25px;
+
+    width: 100%;
 }
 
 
@@ -11966,93 +11923,61 @@ body.dark-mode {
 ========================================================= */
 
 .healthcare-service-card {
-
-    position: relative;
-
-    padding: 28px 24px;
-
     display: flex;
+    flex-direction: column;
 
-    align-items: flex-start;
+    overflow: hidden;
 
-    gap: 17px;
+    background: var(--card-bg);
 
-    background-color: var(--services-card-bg);
+    border: 1px solid var(--border-color);
 
-    border: 1px solid var(--services-border);
+    border-radius: 14px;
 
-    border-radius: 10px;
-
-    box-shadow: var(--services-shadow);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
 
     transition:
-        background-color var(--services-transition),
-        border-color var(--services-transition),
-        box-shadow var(--services-transition),
-        transform var(--services-transition);
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        border-color 0.3s ease;
 }
-
-
-/* =========================================================
-   CARD HOVER
-========================================================= */
 
 .healthcare-service-card:hover {
+    transform: translateY(-6px);
 
-    transform: translateY(-5px);
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.10);
 
-    border-color: var(--services-primary);
-
-    box-shadow:
-        0 12px 28px rgba(21, 154, 140, 0.10);
+    border-color: var(--primary-color);
 }
 
 
 /* =========================================================
-   SERVICE ICON
+   SERVICE IMAGE
 ========================================================= */
 
-.healthcare-service-icon {
+.healthcare-service-image {
+    width: 100%;
+    height: 190px;
 
-    width: 52px;
+    overflow: hidden;
 
-    height: 52px;
-
-    flex-shrink: 0;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    background-color: var(--services-icon-bg);
-
-    color: var(--services-primary);
-
-    border-radius: 8px;
-
-    font-size: 19px;
-
-    transition:
-        background-color var(--services-transition),
-        color var(--services-transition),
-        transform var(--services-transition);
+    background: #e9f5f3;
 }
 
+.healthcare-service-image img {
+    width: 100%;
+    height: 100%;
 
-/* =========================================================
-   ICON HOVER
-========================================================= */
+    display: block;
+
+    object-fit: cover;
+
+    transition: transform 0.4s ease;
+}
 
 .healthcare-service-card:hover
-.healthcare-service-icon {
-
-    background-color: var(--services-primary);
-
-    color: #ffffff;
-
-    transform: translateY(-2px);
+.healthcare-service-image img {
+    transform: scale(1.05);
 }
 
 
@@ -12061,146 +11986,135 @@ body.dark-mode {
 ========================================================= */
 
 .healthcare-service-content {
+    display: flex;
+    flex-direction: column;
 
     flex: 1;
 
-    min-width: 0;
+    padding: 25px;
 }
-
-
-/* =========================================================
-   SERVICE TITLE
-========================================================= */
 
 .healthcare-service-content h3 {
+    margin: 0 0 12px;
 
-    margin: 0 0 8px;
-
-    color: var(--services-heading);
-
-    font-size: 16px;
-
+    font-size: 21px;
+    line-height: 1.3;
     font-weight: 600;
 
-    line-height: 1.4;
-
-    transition:
-        color var(--services-transition);
+    color: var(--heading-color);
 }
-
-
-/* =========================================================
-   SERVICE TEXT
-========================================================= */
 
 .healthcare-service-content p {
+    margin: 0 0 20px;
 
-    margin: 0 0 14px;
+    font-size: 15px;
+    line-height: 1.7;
+    font-weight: 400;
 
-    color: var(--services-text);
-
-    font-size: 12px;
-
-    line-height: 1.75;
-
-    transition:
-        color var(--services-transition);
+    color: var(--text-muted);
 }
 
-
-/* =========================================================
-   LEARN MORE
-========================================================= */
-
 .healthcare-service-content a {
-
     display: inline-flex;
-
     align-items: center;
+    gap: 8px;
 
-    gap: 7px;
+    width: fit-content;
 
-    color: var(--services-primary);
+    margin-top: auto;
 
-    font-size: 11px;
+    color: var(--primary-color);
 
+    font-size: 14px;
     font-weight: 600;
 
     text-decoration: none;
 
-    transition:
-        color var(--services-transition),
-        gap var(--services-transition);
+    transition: gap 0.3s ease;
 }
-
-
-/* =========================================================
-   LEARN MORE ICON
-========================================================= */
-
-.healthcare-service-content a i {
-
-    font-size: 9px;
-}
-
-
-/* =========================================================
-   LEARN MORE HOVER
-========================================================= */
 
 .healthcare-service-content a:hover {
+    gap: 12px;
+}
 
-    color: var(--services-primary-dark);
-
-    gap: 10px;
+.healthcare-service-content a i {
+    font-size: 12px;
 }
 
 
 /* =========================================================
-   DARK MODE CARD
+   RTL
+========================================================= */
+
+html[dir="rtl"] .healthcare-service-content {
+    text-align: right;
+}
+
+html[dir="rtl"] .healthcare-service-content a {
+    flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .healthcare-services-heading {
+    direction: rtl;
+}
+
+
+/* =========================================================
+   DARK MODE
 ========================================================= */
 
 body.dark-mode .healthcare-service-card {
+    background: var(--card-bg);
 
-    background-color: var(--services-card-bg);
-
-    border-color: var(--services-border);
-
-    box-shadow: var(--services-shadow);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.20);
 }
-
 
 body.dark-mode .healthcare-service-card:hover {
-
-    border-color: var(--services-primary);
-
-    box-shadow:
-        0 12px 28px rgba(53, 199, 181, 0.10);
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.30);
 }
+
+body.dark-mode .healthcare-service-image {
+    background: #162b2b;
+}
+
+
 
 
 /* =========================================================
-   SMOOTH TRANSITIONS
+   SMALL MOBILE - 360px
 ========================================================= */
 
-.services-hero,
-.healthcare-services,
-.healthcare-service-card,
-.healthcare-service-icon,
-.services-hero-content h1,
-.services-hero-content p,
-.healthcare-services-heading h2,
-.healthcare-services-heading p,
-.healthcare-service-content h3,
-.healthcare-service-content p {
+@media (max-width: 400px) {
 
-    transition:
-        background-color var(--services-transition),
-        color var(--services-transition),
-        border-color var(--services-transition),
-        box-shadow var(--services-transition);
+    .healthcare-services-container {
+        width: 90%;
+    }
+
+    .healthcare-services-heading h2 {
+        font-size: 25px;
+    }
+
+    .healthcare-services-heading p {
+        font-size: 13px;
+    }
+
+    .healthcare-service-image {
+        height: 175px;
+    }
+
+    .healthcare-service-content {
+        padding: 18px;
+    }
+
+    .healthcare-service-content h3 {
+        font-size: 18px;
+    }
+
+    .healthcare-service-content p {
+        font-size: 13px;
+    }
+
 }
-
 
 
 
@@ -24216,7 +24130,7 @@ body.dark-mode {
 
     color: var(--register-heading);
 
-    font-size: 29px;
+    font-size: 18px;
 
     font-weight: 600;
 
@@ -25728,4 +25642,80 @@ body.dark-mode .scroll-top-btn {
     .register-logo {
         margin-bottom: 24px !important;
     }
+}
+
+
+.register-heading h1 {
+    font-size: 32px !important;
+    line-height: 1.2;
+    margin: 0 0 10px;
+}
+
+@media (max-width: 600px) {
+    .register-heading h1 {
+        font-size: 26px !important;
+    }
+}
+/* LOGIN - REDUCE SIGN IN SIZE */
+.login-heading h1 {
+    font-size: 32px !important;
+    line-height: 1.2;
+    margin: 0 0 10px;
+}
+/* =========================================================
+   GLOBAL BUTTON TYPOGRAPHY
+   SAME STYLE ACROSS ENTIRE WEBSITE
+========================================================= */
+
+button,
+.btn,
+a.btn,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+[class*="-btn"],
+[class*="-button"],
+[class*="-submit"],
+[class*="-action"] {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    line-height: 1.2 !important;
+}
+
+/* =========================================================
+   CONTACT INFO CARD - LABELS
+   VISIT US / CALL US / EMAIL US / OPENING HOURS
+========================================================= */
+
+.contact-info-label {
+    display: block;
+    font-size: 11px !important;
+    font-weight: 600 !important;
+    line-height: 1.4 !important;
+    letter-spacing: 0.7px !important;
+    margin-bottom: 5px !important;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767px) {
+
+    .contact-info-label {
+        font-size: 10px !important;
+        line-height: 1.4 !important;
+        letter-spacing: 0.6px !important;
+        margin-bottom: 5px !important;
+    }
+
+}
+/* =========================================================
+   DARK MODE - BRIGHT MEDICARE LOGO
+========================================================= */
+
+body.dark-mode .header-logo img {
+    filter: brightness(2.5) contrast(1.3) saturate(1.3);
 }
