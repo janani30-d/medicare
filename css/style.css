@@ -25595,3 +25595,97 @@ a.btn {
     display: block;
     margin: 0 auto;
 }
+
+/* =========================================================
+   SCROLL TO TOP BUTTON
+========================================================= */
+
+.scroll-top-btn {
+    position: fixed;
+
+    right: 25px;
+    bottom: 25px;
+
+    width: 46px;
+    height: 46px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    border-radius: 50%;
+
+    background: var(--primary-color);
+    color: #ffffff;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transform: translateY(15px);
+
+    transition:
+        opacity 0.3s ease,
+        visibility 0.3s ease,
+        transform 0.3s ease,
+        background-color 0.3s ease;
+
+    z-index: 9999;
+}
+
+.scroll-top-btn.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.scroll-top-btn:hover {
+    transform: translateY(-3px);
+}
+
+
+/* =========================================================
+   RTL
+========================================================= */
+
+html[dir="rtl"] .scroll-top-btn {
+    right: auto;
+    left: 25px;
+}
+
+
+/* =========================================================
+   DARK MODE
+========================================================= */
+
+body.dark-mode .scroll-top-btn {
+    color: #ffffff;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767px) {
+
+    .scroll-top-btn {
+        width: 40px;
+        height: 40px;
+
+        right: 15px;
+        bottom: 15px;
+
+        font-size: 14px;
+    }
+
+    html[dir="rtl"] .scroll-top-btn {
+        right: auto;
+        left: 15px;
+    }
+
+}
