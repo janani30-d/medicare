@@ -76,14 +76,14 @@ document.querySelectorAll(
 
 
 /* =========================================================
-   HOME DROPDOWN - MOBILE
+   HOME DROPDOWN - TABLET + MOBILE
 ========================================================= */
 
 if (dropdownToggle && dropdown) {
 
     dropdownToggle.addEventListener("click", function (event) {
 
-        if (window.innerWidth <= 900) {
+        if (window.innerWidth <= 1100) {
 
             event.preventDefault();
 

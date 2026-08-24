@@ -26993,3 +26993,345 @@ html[dir="rtl"] .contact-form-submit {
     align-items: center !important;
     width: 100% !important;
 }
+/* =========================================================
+   IPAD MINI - HOW IT WORKS
+   768px - 820px
+========================================================= */
+
+@media (min-width: 768px) and (max-width: 820px) {
+
+    .how-it-works {
+        padding: 55px 20px !important;
+    }
+
+    .how-it-works .container {
+        width: 100% !important;
+        max-width: 730px !important;
+        margin: 0 auto !important;
+    }
+
+    /* Heading */
+    .how-it-works h2 {
+        font-size: 26px !important;
+        line-height: 1.25 !important;
+        margin-bottom: 10px !important;
+    }
+
+    .how-it-works > .container > p {
+        font-size: 13px !important;
+        line-height: 1.5 !important;
+    }
+
+    /* Steps */
+    .steps-container,
+    .steps-grid,
+    .how-it-works-grid {
+        width: 100% !important;
+        display: grid !important;
+        grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+        gap: 12px !important;
+        margin-top: 35px !important;
+    }
+
+    /* Individual step */
+    .step-item,
+    .how-it-works-item {
+        min-width: 0 !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    /* Icon */
+    .step-icon {
+        width: 48px !important;
+        height: 48px !important;
+        margin: 0 auto 12px !important;
+    }
+
+    /* Step number */
+    .step-number {
+        font-size: 10px !important;
+    }
+
+    /* Step title */
+    .step-item h3,
+    .how-it-works-item h3 {
+        font-size: 14px !important;
+        line-height: 1.35 !important;
+        margin-bottom: 7px !important;
+    }
+
+    /* Step description */
+    .step-item p,
+    .how-it-works-item p {
+        font-size: 11px !important;
+        line-height: 1.45 !important;
+    }
+
+}
+/* =========================================================
+   HOME 2 - IPAD MINI 768px - 820px
+   FIX HEADER OVERLAPPING HERO
+========================================================= */
+
+@media (min-width: 768px) and (max-width: 820px) {
+
+    /* Push entire hero below fixed header */
+    .home2-hero {
+        position: relative !important;
+
+        margin-top: 74px !important;
+
+        min-height: auto !important;
+        height: auto !important;
+
+        padding: 25px 0 35px !important;
+
+        overflow: visible !important;
+        box-sizing: border-box !important;
+    }
+
+
+    /* HERO CONTAINER */
+    .home2-hero-container {
+        width: 92% !important;
+        max-width: 720px !important;
+
+        margin: 0 auto !important;
+        padding: 0 !important;
+
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+
+        gap: 18px !important;
+        align-items: start !important;
+    }
+
+
+    /* LEFT CONTENT */
+    .home2-hero-content {
+        width: 100% !important;
+
+        padding: 5px 0 0 !important;
+        margin: 0 !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    .home2-hero-subtitle {
+        font-size: 9px !important;
+        line-height: 1.4 !important;
+
+        margin: 0 0 7px !important;
+    }
+
+
+    .home2-hero-content h1 {
+        font-size: 24px !important;
+        line-height: 1.2 !important;
+
+        margin: 0 0 10px !important;
+    }
+
+
+    .home2-hero-content > p {
+        font-size: 10px !important;
+        line-height: 1.5 !important;
+
+        margin: 0 0 14px !important;
+    }
+
+
+    /* BUTTONS */
+    .home2-hero-buttons {
+        display: flex !important;
+
+        gap: 7px !important;
+        margin-bottom: 14px !important;
+    }
+
+
+    .home2-hero-btn {
+        min-width: 0 !important;
+        min-height: 36px !important;
+
+        padding: 7px 10px !important;
+
+        font-size: 9px !important;
+    }
+
+
+    /* TRUST ITEMS */
+    .home2-hero-trust {
+        display: flex !important;
+
+        flex-wrap: nowrap !important;
+        gap: 7px !important;
+    }
+
+
+    .home2-trust-item {
+        font-size: 7px !important;
+        gap: 4px !important;
+
+        white-space: nowrap !important;
+    }
+
+
+    .home2-trust-item i {
+        font-size: 9px !important;
+    }
+
+
+    /* =====================================================
+       IMAGE
+    ===================================================== */
+
+    .home2-hero-image {
+        width: 100% !important;
+        height: 245px !important;
+
+        margin: 20px 0 0 !important;
+
+        border-radius: 12px !important;
+        overflow: hidden !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    .home2-hero-image img {
+        width: 100% !important;
+        height: 100% !important;
+
+        display: block !important;
+
+        object-fit: cover !important;
+
+        border-radius: 12px !important;
+    }
+
+}
+/* =========================================================
+   HOME 2 HERO - IPAD PRO
+   821px TO 1100px
+========================================================= */
+
+@media (min-width: 821px) and (max-width: 1100px) {
+
+    /* HERO */
+    .home2-hero {
+        position: relative !important;
+        margin-top: 74px !important;
+
+        min-height: auto !important;
+        height: auto !important;
+
+        padding: 35px 0 40px !important;
+
+        overflow: visible !important;
+        box-sizing: border-box !important;
+    }
+
+    /* HERO CONTAINER */
+    .home2-hero-container {
+        width: 90% !important;
+        max-width: 900px !important;
+
+        margin: 0 auto !important;
+        padding: 0 !important;
+
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+
+        gap: 28px !important;
+        align-items: start !important;
+    }
+
+    /* LEFT CONTENT */
+    .home2-hero-content {
+        width: 100% !important;
+        padding: 8px 0 0 !important;
+        margin: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    .home2-hero-subtitle {
+        font-size: 11px !important;
+        line-height: 1.4 !important;
+        margin: 0 0 10px !important;
+    }
+
+    .home2-hero-content h1 {
+        font-size: 30px !important;
+        line-height: 1.2 !important;
+        margin: 0 0 14px !important;
+    }
+
+    .home2-hero-content > p {
+        font-size: 12px !important;
+        line-height: 1.55 !important;
+        margin: 0 0 18px !important;
+    }
+
+    /* BUTTONS */
+    .home2-hero-buttons {
+        display: flex !important;
+        gap: 10px !important;
+        margin-bottom: 18px !important;
+    }
+
+    .home2-hero-btn {
+        min-width: 0 !important;
+        min-height: 40px !important;
+
+        padding: 9px 14px !important;
+        font-size: 10px !important;
+    }
+
+    /* TRUST ITEMS */
+    .home2-hero-trust {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        gap: 10px !important;
+    }
+
+    .home2-trust-item {
+        font-size: 8px !important;
+        gap: 5px !important;
+        white-space: nowrap !important;
+    }
+
+    .home2-trust-item i {
+        font-size: 10px !important;
+    }
+
+
+    /* =====================================================
+       HERO IMAGE - SEPARATE BOX
+    ===================================================== */
+
+    .home2-hero-image {
+        width: 100% !important;
+        height: 330px !important;
+
+        margin: 20px 0 0 !important;
+
+        border-radius: 14px !important;
+        overflow: hidden !important;
+
+        box-sizing: border-box !important;
+    }
+
+    .home2-hero-image img {
+        width: 100% !important;
+        height: 100% !important;
+
+        display: block !important;
+        object-fit: cover !important;
+
+        border-radius: 14px !important;
+    }
+
+}
