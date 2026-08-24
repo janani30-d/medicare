@@ -26350,3 +26350,646 @@ html[dir="rtl"] .register-social-btn {
         justify-self: center !important;
     }
 }
+
+
+
+/* =========================================================
+   FINAL GLOBAL TYPOGRAPHY
+   SAME VISUAL SCALE ACROSS ENTIRE WEBSITE
+========================================================= */
+
+
+/* =========================================================
+   DESKTOP — 1200px+
+========================================================= */
+
+@media (min-width: 1200px) {
+
+    /* Main headings */
+    h1 {
+        font-size: 40px !important;
+        line-height: 1.2 !important;
+        font-weight: 600 !important;
+    }
+
+    h2 {
+        font-size: 32px !important;
+        line-height: 1.3 !important;
+        font-weight: 600 !important;
+    }
+
+    h3 {
+        font-size: 20px !important;
+        line-height: 1.4 !important;
+        font-weight: 600 !important;
+    }
+
+    h4 {
+        font-size: 17px !important;
+        line-height: 1.4 !important;
+        font-weight: 600 !important;
+    }
+
+    p {
+        font-size: 15px !important;
+        line-height: 1.7 !important;
+        font-weight: 400 !important;
+    }
+
+    /* Section subtitles */
+    .section-subtitle,
+    .featured-article-subtitle,
+    .latest-articles-subtitle,
+    .wellness-tips-subtitle,
+    .medicine-guides-subtitle {
+        font-size: 12px !important;
+        font-weight: 500 !important;
+    }
+
+    /* Card headings */
+    .service-content h3,
+    .service-card h3,
+    .medicine-category-card h3,
+    .medicine-product-card h3,
+    .article-content h3,
+    .latest-article-content h3,
+    .wellness-tip-content h3,
+    .medicine-guide-content h3 {
+        font-size: 18px !important;
+        line-height: 1.4 !important;
+        font-weight: 600 !important;
+    }
+
+    /* Card paragraphs */
+    .service-content p,
+    .service-card p,
+    .medicine-category-card p,
+    .medicine-product-card p,
+    .article-content p,
+    .latest-article-content p,
+    .wellness-tip-content p,
+    .medicine-guide-content p {
+        font-size: 14px !important;
+        line-height: 1.65 !important;
+        font-weight: 400 !important;
+    }
+
+    /* Buttons */
+    button,
+    .btn,
+    a.btn {
+        font-size: 14px !important;
+        font-weight: 500 !important;
+    }
+
+    /* Labels */
+    label {
+        font-size: 13px !important;
+        font-weight: 500 !important;
+    }
+}
+
+
+/* =========================================================
+   TABLET — 768px to 1199px
+========================================================= */
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+    h1 {
+        font-size: 34px !important;
+        line-height: 1.2 !important;
+        font-weight: 600 !important;
+    }
+
+    h2 {
+        font-size: 28px !important;
+        line-height: 1.3 !important;
+        font-weight: 600 !important;
+    }
+
+    h3 {
+        font-size: 18px !important;
+        line-height: 1.4 !important;
+        font-weight: 600 !important;
+    }
+
+    h4 {
+        font-size: 16px !important;
+        font-weight: 600 !important;
+    }
+
+    p {
+        font-size: 14px !important;
+        line-height: 1.65 !important;
+        font-weight: 400 !important;
+    }
+
+    .section-subtitle,
+    .featured-article-subtitle,
+    .latest-articles-subtitle,
+    .wellness-tips-subtitle,
+    .medicine-guides-subtitle {
+        font-size: 11px !important;
+        font-weight: 500 !important;
+    }
+
+    .service-content h3,
+    .service-card h3,
+    .medicine-category-card h3,
+    .medicine-product-card h3,
+    .article-content h3,
+    .latest-article-content h3,
+    .wellness-tip-content h3,
+    .medicine-guide-content h3 {
+        font-size: 17px !important;
+        font-weight: 600 !important;
+    }
+
+    .service-content p,
+    .service-card p,
+    .medicine-category-card p,
+    .medicine-product-card p,
+    .article-content p,
+    .latest-article-content p,
+    .wellness-tip-content p,
+    .medicine-guide-content p {
+        font-size: 13px !important;
+        line-height: 1.6 !important;
+        font-weight: 400 !important;
+    }
+
+    button,
+    .btn,
+    a.btn {
+        font-size: 13px !important;
+        font-weight: 500 !important;
+    }
+
+    label {
+        font-size: 12px !important;
+        font-weight: 500 !important;
+    }
+}
+
+
+/* =========================================================
+   MOBILE — 481px to 767px
+========================================================= */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    h1 {
+        font-size: 30px !important;
+        line-height: 1.2 !important;
+        font-weight: 600 !important;
+    }
+
+    h2 {
+        font-size: 25px !important;
+        line-height: 1.3 !important;
+        font-weight: 600 !important;
+    }
+
+    h3 {
+        font-size: 17px !important;
+        line-height: 1.4 !important;
+        font-weight: 600 !important;
+    }
+
+    h4 {
+        font-size: 15px !important;
+        font-weight: 600 !important;
+    }
+
+    p {
+        font-size: 13px !important;
+        line-height: 1.6 !important;
+        font-weight: 400 !important;
+    }
+
+    .section-subtitle,
+    .featured-article-subtitle,
+    .latest-articles-subtitle,
+    .wellness-tips-subtitle,
+    .medicine-guides-subtitle {
+        font-size: 11px !important;
+        font-weight: 500 !important;
+    }
+
+    .service-content h3,
+    .service-card h3,
+    .medicine-category-card h3,
+    .medicine-product-card h3,
+    .article-content h3,
+    .latest-article-content h3,
+    .wellness-tip-content h3,
+    .medicine-guide-content h3 {
+        font-size: 16px !important;
+        font-weight: 600 !important;
+    }
+
+    .service-content p,
+    .service-card p,
+    .medicine-category-card p,
+    .medicine-product-card p,
+    .article-content p,
+    .latest-article-content p,
+    .wellness-tip-content p,
+    .medicine-guide-content p {
+        font-size: 13px !important;
+        line-height: 1.6 !important;
+        font-weight: 400 !important;
+    }
+
+    button,
+    .btn,
+    a.btn {
+        font-size: 13px !important;
+        font-weight: 500 !important;
+    }
+
+    label {
+        font-size: 12px !important;
+        font-weight: 500 !important;
+    }
+}
+
+
+/* =========================================================
+   SMALL MOBILE — 360px to 480px
+========================================================= */
+
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 26px !important;
+        line-height: 1.2 !important;
+        font-weight: 600 !important;
+    }
+
+    h2 {
+        font-size: 22px !important;
+        line-height: 1.3 !important;
+        font-weight: 600 !important;
+    }
+
+    h3 {
+        font-size: 16px !important;
+        line-height: 1.4 !important;
+        font-weight: 600 !important;
+    }
+
+    h4 {
+        font-size: 14px !important;
+        line-height: 1.4 !important;
+        font-weight: 600 !important;
+    }
+
+    p {
+        font-size: 12px !important;
+        line-height: 1.6 !important;
+        font-weight: 400 !important;
+    }
+
+    /* Small section labels */
+    .section-subtitle,
+    .featured-article-subtitle,
+    .latest-articles-subtitle,
+    .wellness-tips-subtitle,
+    .medicine-guides-subtitle {
+        font-size: 10px !important;
+        font-weight: 500 !important;
+    }
+
+    /* Cards */
+    .service-content h3,
+    .service-card h3,
+    .medicine-category-card h3,
+    .medicine-product-card h3,
+    .article-content h3,
+    .latest-article-content h3,
+    .wellness-tip-content h3,
+    .medicine-guide-content h3 {
+        font-size: 16px !important;
+        line-height: 1.4 !important;
+        font-weight: 600 !important;
+    }
+
+    .service-content p,
+    .service-card p,
+    .medicine-category-card p,
+    .medicine-product-card p,
+    .article-content p,
+    .latest-article-content p,
+    .wellness-tip-content p,
+    .medicine-guide-content p {
+        font-size: 12px !important;
+        line-height: 1.6 !important;
+        font-weight: 400 !important;
+    }
+
+    button,
+    .btn,
+    a.btn {
+        font-size: 12px !important;
+        font-weight: 500 !important;
+    }
+
+    label {
+        font-size: 11px !important;
+        font-weight: 500 !important;
+    }
+}
+/* =========================================================
+   REGISTER PAGE - RTL FIX
+========================================================= */
+
+html[dir="rtl"] .register-page {
+    direction: rtl !important;
+}
+
+html[dir="rtl"] .register-section {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+}
+
+html[dir="rtl"] .register-card {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: right !important;
+}
+
+
+/* =========================================================
+   REGISTER LOGO
+   KEEP LOGO CENTERED IN RTL
+========================================================= */
+
+html[dir="rtl"] .register-logo {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    width: 100% !important;
+}
+
+html[dir="rtl"] .register-logo-image {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+/* =========================================================
+   REGISTER HEADING
+========================================================= */
+
+html[dir="rtl"] .register-heading {
+    text-align: center !important;
+}
+
+
+/* =========================================================
+   REGISTER FORM
+========================================================= */
+
+html[dir="rtl"] .register-form {
+    direction: rtl !important;
+}
+
+html[dir="rtl"] .register-form-group {
+    text-align: right !important;
+}
+
+html[dir="rtl"] .register-form-group label {
+    display: block !important;
+    text-align: right !important;
+}
+
+html[dir="rtl"] .register-form-group input {
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+
+/* =========================================================
+   PASSWORD INPUT + EYE ICON
+========================================================= */
+
+html[dir="rtl"] .password-input-wrapper {
+    direction: rtl !important;
+}
+
+html[dir="rtl"] .password-input-wrapper input {
+    padding-left: 45px !important;
+    padding-right: 15px !important;
+}
+
+html[dir="rtl"] .password-toggle {
+    left: 12px !important;
+    right: auto !important;
+}
+
+
+/* =========================================================
+   TERMS CHECKBOX
+========================================================= */
+
+html[dir="rtl"] .register-terms {
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+html[dir="rtl"] .register-terms label {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 7px !important;
+}
+
+
+/* =========================================================
+   CREATE ACCOUNT BUTTON
+========================================================= */
+
+html[dir="rtl"] .register-submit {
+    width: 100% !important;
+    text-align: center !important;
+}
+
+
+/* =========================================================
+   SOCIAL LOGIN
+========================================================= */
+
+html[dir="rtl"] .social-login {
+    direction: rtl !important;
+}
+
+html[dir="rtl"] .social-login-btn {
+    direction: rtl !important;
+    justify-content: center !important;
+}
+
+
+/* =========================================================
+   LOGIN LINK
+========================================================= */
+
+html[dir="rtl"] .register-login {
+    text-align: center !important;
+}
+/* =========================================================
+   ORDER FORM - RTL ONLY
+   NO HTML CHANGES
+========================================================= */
+
+html[dir="rtl"] .order-details-form {
+    direction: rtl !important;
+}
+
+/* Two-column rows */
+html[dir="rtl"] .order-form-row {
+    direction: rtl !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 20px !important;
+}
+
+/* Form groups */
+html[dir="rtl"] .order-form-group {
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+/* Labels */
+html[dir="rtl"] .order-form-group label {
+    display: block !important;
+    width: 100% !important;
+    text-align: right !important;
+}
+
+/* Inputs */
+html[dir="rtl"] .order-form-group input,
+html[dir="rtl"] .order-form-group textarea {
+    direction: rtl !important;
+    text-align: right !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+/* Placeholder */
+html[dir="rtl"] .order-form-group input::placeholder,
+html[dir="rtl"] .order-form-group textarea::placeholder {
+    text-align: right !important;
+}
+
+/* Full-width textarea */
+html[dir="rtl"] .order-form-full {
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+/* Submit button stays centered */
+html[dir="rtl"] .order-form-submit {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    direction: rtl !important;
+}
+
+/* =========================================================
+   MOBILE RTL
+========================================================= */
+
+@media (max-width: 767px) {
+
+    html[dir="rtl"] .order-form-row {
+        grid-template-columns: 1fr !important;
+        gap: 18px !important;
+    }
+
+    html[dir="rtl"] .order-form-group input,
+    html[dir="rtl"] .order-form-group textarea {
+        width: 100% !important;
+        text-align: right !important;
+        direction: rtl !important;
+    }
+
+}
+/* =========================================================
+   CONTACT FORM - RTL FIX
+   HTML CHANGE NOT REQUIRED
+========================================================= */
+
+html[dir="rtl"] .contact-form {
+    direction: rtl !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+html[dir="rtl"] .contact-form-row {
+    direction: rtl !important;
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 20px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+html[dir="rtl"] .contact-form-group {
+    width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+    text-align: right !important;
+}
+
+html[dir="rtl"] .contact-form-group label {
+    display: block !important;
+    width: 100% !important;
+    text-align: right !important;
+}
+
+html[dir="rtl"] .contact-form-group input,
+html[dir="rtl"] .contact-form-group textarea,
+html[dir="rtl"] .contact-form-group select {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+html[dir="rtl"] .contact-form-group input::placeholder,
+html[dir="rtl"] .contact-form-group textarea::placeholder {
+    text-align: right !important;
+}
+
+
+/* =========================================================
+   MESSAGE
+========================================================= */
+
+html[dir="rtl"] .contact-form-message {
+    width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+}
+
+
+/* =========================================================
+   SUBMIT BUTTON
+========================================================= */
+
+html[dir="rtl"] .contact-form-submit {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+}

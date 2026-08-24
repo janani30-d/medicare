@@ -4588,7 +4588,7 @@ body.dark-mode {
 
     background-color: var(--final-cta-primary-text);
 
-    border-color: var(--final-cta-primary-text);
+    border-color: var(--white);
 
     color: #ffffff;
 
@@ -25439,4 +25439,159 @@ html[dir="rtl"] .auth-controls {
     .contact-form-submit {
         font-size: 11px !important;
     }
+}
+
+
+
+
+
+
+
+
+
+/* =========================================================
+   GLOBAL TYPOGRAPHY CONSISTENCY
+========================================================= */
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600 !important;
+}
+
+
+/* Paragraphs */
+p {
+    font-weight: 400 !important;
+}
+
+
+/* Descriptions / supporting text */
+.section-heading p,
+.hero-content p,
+.card p,
+.service-content p,
+.article-content p,
+.blog-content p,
+.contact-content p,
+.about-content p {
+    font-weight: 450 !important;
+}
+
+
+/* Labels and small supporting text */
+label,
+small,
+.section-subtitle,
+.card-label,
+.article-meta {
+    font-weight: 400 !important;
+}
+
+
+/* Buttons */
+button,
+.btn,
+a.btn {
+    font-weight: 500 !important;
+}
+
+
+
+/* =========================================================
+   SERVICES HERO
+   MATCH MEDICINES HERO STYLE
+========================================================= */
+
+.services-hero {
+    background-image:
+        linear-gradient(
+            rgba(8, 45, 42, 0.62),
+            rgba(8, 45, 42, 0.62)
+        ),
+        url("../images/services-hero.jpg") !important;
+
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+
+/* =========================================================
+   SUBTITLE
+========================================================= */
+
+.services-hero-subtitle {
+    color: #159a8c !important;
+}
+
+
+/* =========================================================
+   MAIN HEADING
+========================================================= */
+
+.services-hero-content h1 {
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
+
+
+/* Highlighted heading text */
+
+.services-hero-content h1 span {
+    color: #159a8c !important;
+}
+
+
+/* =========================================================
+   DESCRIPTION
+========================================================= */
+
+.services-hero-content p {
+    color: #ffffff !important;
+    font-weight: 400 !important;
+}
+
+
+/* =========================================================
+   PRIMARY BUTTON
+========================================================= */
+
+.services-hero-btn {
+    background-color: #159a8c !important;
+    color: #ffffff !important;
+    border: 1px solid #159a8c !important;
+}
+
+
+/* Hover */
+
+.services-hero-btn:hover {
+    background-color: #0f8175 !important;
+    border-color: #0f8175 !important;
+}
+/* =========================================================
+   AUTH LOGO - LOGIN + REGISTER
+========================================================= */
+
+.login-logo,
+.register-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-logo-image,
+.register-logo-image {
+    width: 190px !important;
+    height: auto !important;
+    max-width: 80% !important;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
 }
